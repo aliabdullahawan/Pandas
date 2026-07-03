@@ -7,17 +7,15 @@ Pandas is a Python library that provides data structures and data analysis tools
 Pandas is widely used in data science, machine learning, and data analysis tasks.   
 Pandas is the Ms-Excel of Python. It is used for data manipulation and analysis. It offers data structures and operations for manipulating numerical tables and time series.
 """
-
 # ---------------------------------------------------------------------------------------------------------------------
 
-""""
+"""
 -- SERIES --
 Series is a one-dimensional labeled array capable of holding any data type (integers, strings, floating point numbers, Python objects, etc.). 
 The axis labels are collectively referred to as the index. A Series is like a fixed-size dictionary in that you can get and set values by index label. 
 A Series can be created from a list or array, or from a dictionary.
 """
 
-"""
 print(pd.__version__)  # Print the version of pandas
 
 data_series = [1, 2, 3, 4, 5]
@@ -49,7 +47,6 @@ calories = {
 }
 series2 = pd.Series(calories)
 print(series2)
-"""
 
 # ---------------------------------------------------------------------------------------------------------------------
 
